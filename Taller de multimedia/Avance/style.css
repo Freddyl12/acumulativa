@@ -1,0 +1,55 @@
+* {
+    color: black;
+}
+h1 {
+    font-size: 20px; 
+    font-family: 'Times New Roman';
+}
+header,nav {
+    background: white;
+    border: 1px solid black;
+    display: block;
+}
+nav {
+    text-align: left;
+}
+.menu li {
+    list-style: none;
+    padding: 5px;
+    font: bold 14px verdana;
+    border: 5px solid grey;
+    display: inline-block;
+}
+body {
+    text-align: center;
+}
+footer {
+    text-align: center;
+}
+.agrupar{
+    background: white;
+    width: 960px;
+    margin: 50px auto;
+    padding: 40px;
+    border: 1px solid black;
+}
+.seccion {
+    margin: 20px;
+    width: 60%;
+    float: left;
+}
+article{
+    background: rgb(187, 181, 181);
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+.info {
+    margin: 20px;
+    width: 30%;
+    float: left;
+    border: 1px solid black;
+}
+.pie {
+    clear: both;
+}
